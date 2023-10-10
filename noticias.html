@@ -1,0 +1,179 @@
+<!--Guillermo Sanchez Becerra-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Concienciación sobre el Impacto Medioambiental</title>
+</head>
+<body id="news-page">
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="#">Noticias</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="card-news">
+            <img src="img/energy-usage.png" alt="energy-usage">
+            <div class="card-content">
+                <h2>Consumo de Energía en los Centros de Datos</h2>
+                <p>Los centros de datos consumen grandes cantidades de energía, contribuyendo a la huella de carbono del comercio electrónico.</p>
+            </div>
+        </div>
+        <div class="card-news">
+            <img src="img/embalaje.png" alt="embalaje">
+            <div class="card-content">
+                <h2>Embalaje Excesivo y Residuos</h2>
+                <p>El comercio electrónico a menudo utiliza envases excesivos, generando más residuos sólidos.</p>
+            </div>
+        </div>
+        <div class="card-news">
+            <img src="img/device.png" alt="device">
+            <div class="card-content">
+                <h2>Consumo Energético de Dispositivos</h2>
+                <p>Los dispositivos utilizados para acceder a tiendas en línea, como ordenadores y móviles, consumen energía eléctrica.</p>
+            </div>
+        </div>
+        <div class="card-news">
+            <img src="img/ReturnIcon.png" alt="returnicon">
+            <div class="card-content">
+                <h2>Devoluciones y Reenvíos de Productos</h2>
+                <p>Las devoluciones y los reenvíos en el comercio electrónico pueden dar lugar a una mayor carga logística y a un uso adicional de recursos.</p>
+            </div>
+        </div>
+        <table>
+            <caption>Previsiones 2021 - 2030</caption>
+            <tr>
+                <th>
+                    2021
+                </th>
+                <th>
+                    2030
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    5.3 millones de vehiculos de reparto
+                </th>
+                <th>
+                    7.2 millones de vehiculos de reparto <span>(+36%)</span>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    19 millones de toneladas de CO2 
+                </th>
+                <th>
+                    25 millones de toneladas de CO2  <span>(6M)</span>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    53+ minutos de congestion (trafico) 
+                </th>
+                <th>
+                    64+ minutos de congestion (trafico) <span>(+21%)</span>
+                </th>
+            </tr>
+        </table>
+        <div id="formulario">
+            <h2>¿Te gustaría aportar tu granito de arena?</h2>
+            <form action="./main.php" method="post">
+                <label for="name-field">Nombre </label>
+                <input type="text" name="name-field" id="name-field"><br>
+                <label for="lastname-field">Apellidos </label>
+                <input type="text" name="lastname-field" id="lastname-field"><br>
+                <label for="mail-field">Correo </label>
+                <input type="text" name="mail-field" id="mail-field"><br>
+                <legend>Curso</legend>
+                <select name="curso">
+                    <option value="2daw">2daw</option>
+                    <option value="1daw">1daw</option>
+                    <option value="2smr">2smr</option>
+                    <option value="1smr">1smr</option>
+                    <option value="2bach">2bach</option>
+                    <option value="1bach">1bach</option>
+                </select><br><br>
+                <fieldset>
+                    <legend>Género:</legend>
+                    <input type="radio" id="masculino" name="genre" value="masculino">
+                    <label for="masculino">Masculino</label><br>
+                    <input type="radio" id="femenino" name="genre" value="femenino">
+                    <label for="femenino">Femenino</label><br>
+                    <input type="radio" id="otro" name="genre" value="otro">
+                    <label for="otro">Otro</label>
+                </fieldset>
+                <fieldset>
+                <!-- Creamos el conjunto de checkbox-->
+                    <legend>Que productos sueles comprar por internet</legend>
+                    <!--Especificamos en el atributo name el nombre del array en el que se van a almacenar los valores-->
+                    <input type="checkbox" id="electronica" name="compras-online[]" value="electronica">
+                    <label for="electronica">Electronica</label><br>
+                    <input type="checkbox" id="ropa" name="compras-online[]" value="ropa">
+                    <label for="ropa">Ropa</label><br>
+                    <input type="checkbox" id="comida" name="compras-online[]" value="comida">
+                    <label for="comida">Comida</label><br>
+                    <input type="checkbox" id="otros" name="compras-online[]" value="otros">
+                    <label for="otros">Otros</label>
+                </fieldset>
+                <fieldset>
+                <!-- Creamos el conjunto de checkbox-->
+                    <legend>Temas de interés:</legend>
+                    <!--Especificamos en el atributo name el nombre del array en el que se van a almacenar los valores-->
+                    <input type="checkbox" id="reciclaje" name="temas[]" value="reciclaje">
+                    <label for="reciclaje">Reciclaje</label><br>
+                    <input type="checkbox" id="medioambiente" name="temas[]" value="medioambiente">
+                    <label for="medio-ambiente">Medioambiente</label><br>
+                    <input type="checkbox" id="voluntariado" name="temas[]" value="voluntariado">
+                    <label for="voluntariado">Voluntariado</label><br>
+                    <input type="checkbox" id="variado" name="temas[]" value="variado">
+                    <label for="variado">Variado</label>
+                </fieldset>
+                <input type="checkbox" name="newsletter" id="newsletter">
+                <label for="newsletter">Deseo recibir noticias relacionadas con los intereses seleccionados</label><br>
+                <input type="checkbox" name="privacidad" id="privacidad">
+                <label for="privacidad">Acepto los terminos de privacidad</label><br><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+        <div id="organizaciones-medioambientales">
+            <h2>Organizaciones medioambientales interesantes</h2>
+            <ul>
+                <li>
+                    <a href="https://www.worldwildlife.org/" target="_blank">
+                        <strong>World Wildlife Fund</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.greenpeace.org/" target="_blank">
+                        <strong>Greenpeace</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.nature.org/" target="_blank">
+                        <strong>The Nature Conservancy</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.sierraclub.org/" target="_blank">
+                        <strong>Sierra Club</strong>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <footer>
+            <div>
+                <p>© 2023 Guillermo Sánchez. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
