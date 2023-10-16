@@ -30,80 +30,77 @@ nav {
 
 /* Estilos para elementos de lista <li> dentro de la navbar */
 li {
-    display: inline-block; /* Hace que los elementos de lista sean elementos en línea */
-    width: 20%; /* Establece un ancho del 20% para cada elemento de lista */
+    display: inline-block; 
+    width: 248px; 
 }
 
 /* Estilos para los enlaces <a> dentro de elementos <li> */
 a {
-    color: black; /* Establece el color del texto */
-    text-decoration: none; /* Elimina la decoración de enlace subrayado */
-    display: block; /* Convierte los enlaces en bloques para que ocupen todo el ancho de <li> */
-    padding: 10px; /* Agrega espacio de relleno alrededor del texto del enlace */
+    color: black; 
+    text-decoration: none; 
+    display: block; 
+    padding: 10px; 
 }
 
 /* Estilos para los enlaces <a> dentro de elementos <li> cuando se desplazan sobre ellos */
 a:hover {
-    background-color: #357a38; /* Cambia el color de fondo en el desplazamiento */
-    color: white; /* Cambia el color del texto en el desplazamiento */
+    background-color: #357a38; 
+    color: white; 
 }
 
 /* Estilos para las tarjetas */
 .card-news {
-    border: 1px solid #ccc; /* Establece un borde */
-    border-radius: 40px; /* Agrega bordes redondeados a las cajas de la pagina de noticias*/
-    margin-bottom: 20px; /* Agrega espacio inferior */
-    background-color: #dfdcdc; /* Establece el color de fondo de la caja*/
+    border: 1px solid #ccc; 
+    border-radius: 40px;
+    margin-bottom: 20px; 
+    background-color: #dfdcdc; 
 }
 
 /* Estilos para las imágenes dentro de las tarjetas */
 .card-news img {
-    float: left; /* Hace que la imagen flote a la izquierda del texto */
-    width: 15s0px; /* Establece un ancho fijo para la imagen */
-    height: 150px; /* Establece una altura fija para la imagen */
-    margin-right: 20px; /* Agrega margen derecho a la imagen */
+    float: left; 
+    width: 15s0px; 
+    height: 150px; 
+    margin-right: 20px; 
 }
 
 /* Estilos para el contenido dentro de las tarjetas */
 .card-content {
-    padding: 20px; 
+    padding: 10px; 
+    width: 1280px;
+    height: 140px;
 
 }
 
 /* Estilos para tablas y sus encabezados y filas */
 table, th, tr {
-    border: 2px dotted #f0f0f0; /* Establece un borde dotted */
+    border: 2px dotted #f0f0f0; 
 }
 
 /* Estilos para la tabla */
 table {
-    width: 1024px; /* Establece un ancho del 80% */
-    margin: 0 auto; /* Centra la tabla horizontalmente en su contenedor */
-    border-collapse: collapse; /* Combina los bordes de la tabla */
-    background-color: #ccc; /* Establece el color de fondo de la tabla */
+    width: 1024px; 
+    margin: 0 auto; 
+    border-collapse: collapse; 
+    background-color: #ccc; 
 }
 
-/* Estilos para el formulario */
-form {
-    width: 768px; /* Establece un ancho del 60% */
-    margin: 0 auto; /* Centra el formulario horizontalmente en su contenedor */
-}
 
 /* Estilos para el título de tabla */
 caption {
-    font-size: larger; /* Establece el tamaño de fuente más grande */
-    font-weight: bolder; /* Hace que el texto sea negrita */
+    font-size: larger; 
+    font-weight: bolder;
 }
 
 /* Estilos para los títulos h1 y h2 */
 h2, h1 {
-    text-align: center; /* Centra los títulos horizontalmente */
-    color: #2e7d32; /* Color de texto verde oscuro */
+    text-align: center; 
+    color: #2e7d32; 
 }
 
 /* Estilos para un elemento con el id "home-card" */
 #home-card {
-    background-color: #f0f0f0; /* Establece el color de fondo */
+    background-color: #f0f0f0; 
     padding: 10px; 
     border-radius: 10px;
 }
@@ -111,23 +108,23 @@ h2, h1 {
 /* Estilos para las tarjetas de inicio */
 #home-card-container {
     width: 800px; 
-    margin: 0 auto; /* Centra la tarjeta horizontalmente en su contenedor */
-    background-color: #fff; /* Establece el color de fondo */
-    border-radius: 40px; /* Agrega bordes redondeados */
+    margin: 0 auto; 
+    background-color: #fff; 
+    border-radius: 40px; 
 }
 
 /* Estilos para el contenido dentro de las tarjetas de inicio */
 #home-card-content {
     padding: 20px;
-    display: inline-block; /* Hace que el contenido sea en línea */
-    width: 50%; 
+    display: inline-block; 
+    width: 430px; 
 }
 
 /* Estilos para un elemento con el id "home-image" */
 #home-image {
     width: 320px; 
-    display: inline-block; /* Hace que la imagen sea en línea */
-    vertical-align: top; /* Alinea la imagen en la parte superior */
+    display: inline-block; 
+    vertical-align: top; 
 }
 
 /* Estilos para elementos <span> */
@@ -139,17 +136,17 @@ span {
 
 /* Estilos para un elemento con el id "organizaciones-medioambientales" */
 #organizaciones-medioambientales {
-    text-align: center; /* Centra el texto horizontalmente */
+    text-align: center; 
 }
 
 /* Estilos para un div dentro de un elemento <footer> */
 footer > div {
-    text-align: center; /* Centra el texto horizontalmente */
+    text-align: center; 
     height: 40px; 
 }
 /* Estilo general para el formulario */
 form {
-    background-color: #e0f2e9; /* Color de fondo verde pastel */
+    background-color: #e0f2e9; 
     padding: 20px;
     border-radius: 10px;
     width: 800px;
@@ -158,7 +155,7 @@ form {
   
   /* Estilo para las etiquetas de los campos de entrada */
   label {
-    color: #2e7d32; /* Color de texto verde oscuro */
+    color: #2e7d32; 
     font-weight: bold;
   }
 
@@ -168,7 +165,7 @@ form {
     width: 750px;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #2e7d32; /* Borde verde oscuro */
+    border: 1px solid #2e7d32; 
     border-radius: 5px;
   }
   
@@ -177,7 +174,7 @@ form {
     width: 770px;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #2e7d32; /* Borde verde oscuro */
+    border: 1px solid #2e7d32; 
     border-radius: 5px;
   }
   
@@ -189,8 +186,8 @@ form {
   
   /* Estilo para los botones de envío */
   input[type="submit"] {
-    background-color: #346336; /* Color de fondo verde oscuro */
-    color: #fff; /* Color de texto blanco */
+    background-color: #346336; 
+    color: #fff; 
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -198,9 +195,9 @@ form {
     font-weight: bold;
   }
   
-  /* Estilo para las leyendas (legend) */
+  /* Estilo para los legend */
   legend {
-    color: #2e7d32; /* Color de texto verde oscuro */
+    color: #2e7d32; 
     font-weight: bold;
     margin-top: 10px;
   }
@@ -219,17 +216,5 @@ form {
   label[for="variado"],
   label[for="newsletter"],
   label[for="privacidad"] {
-    color: #2e7d32; /* Color de texto verde oscuro */
+    color: #2e7d32; 
   }
-  
-  /* Estilo para el enlace de privacidad */
-  a.privacidad-link {
-    color: #2e7d32; /* Color de texto verde oscuro */
-    text-decoration: none;
-  }
-  
-  /* Estilo para los enlaces de privacidad */
-  a.privacidad-link:hover {
-    text-decoration: underline;
-  }
-  
