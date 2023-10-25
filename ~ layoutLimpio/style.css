@@ -1,0 +1,56 @@
+body {
+    width: 1280px;
+}
+
+nav {
+    width: 1240px;
+    margin: 20px;
+    background-color: burlywood;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    display: inline-block;
+    width: 250px;
+    padding: 0 10px;
+    height: 40px;
+}
+
+main {
+    background-color: bisque;
+    width: 1240px;
+    margin: 0px 20px
+}
+
+.div-informacion {
+    overflow: hidden;
+    width: 1220px;
+    padding: 10px;
+    margin: 10px 0 0 0;
+}
+
+.div-imagen {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    float: left;
+    background-color: brown;
+    
+}
+
+.div-contenido {
+    width: 1050px;
+    height: 150px;
+    margin: 5px;
+    float: right;
+    background-color: aqua;
+}
+
