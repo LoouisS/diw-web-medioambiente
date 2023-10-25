@@ -27,14 +27,13 @@ a {
 main {
     background-color: bisque;
     width: 1240px;
-    margin: 0px 20px
+    margin: 0px 20px;
 }
 
 .div-informacion {
     overflow: hidden;
     width: 1220px;
-    padding: 10px;
-    margin: 10px 0 0 0;
+    margin: 10px;
 }
 
 .div-imagen {
@@ -47,10 +46,92 @@ main {
 }
 
 .div-contenido {
-    width: 1050px;
+    width: 1040px;
     height: 150px;
     margin: 5px;
     float: right;
     background-color: aqua;
 }
 
+
+table {
+    border-collapse: collapse;
+    width: 800px;
+    margin: 10px auto;
+    
+    background-color: aquamarine;
+}
+
+tr {
+    height: 50px;
+}
+
+
+form {
+    background-color: #e0f2e9; 
+    padding: 20px;
+    border-radius: 10px;
+    width: 800px;
+    height: 700px;
+    margin: 0 auto;
+  }
+  
+  /* Estilo para las etiquetas de los campos de entrada */
+  label {
+    color: #2e7d32; 
+    font-weight: bold;
+    display: inline-block;
+    width: 120px;
+    height: 20px;
+    margin: 5px;
+  }
+
+  
+  /* Estilo para los campos de entrada de texto */
+  input[type="text"], fieldset{
+    width: 750px;
+    height: 20px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #2e7d32; 
+    border-radius: 5px;
+  }
+
+  fieldset {
+    height: 50px;
+  }
+  
+  /* Estilo para el selector (select) */
+  select {
+    width: 770px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #2e7d32; 
+    border-radius: 5px;
+  }
+  
+  /* Estilo para los botones de radio y casillas de verificación */
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  /* Estilo para los botones de envío */
+  input[type="submit"] {
+    background-color: #346336; 
+    width: 65px;
+    height: 40px;
+    color: #fff; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  /* Estilo para los legend */
+  legend {
+    color: #2e7d32; 
+    font-weight: bold;
+    margin-top: 10px;
+  }
