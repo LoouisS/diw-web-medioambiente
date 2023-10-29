@@ -159,7 +159,6 @@ form {
     font-weight: bold;
   }
 
-  
   /* Estilo para los campos de entrada de texto */
   input[type="text"], fieldset{
     width: 750px;
