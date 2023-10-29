@@ -1,0 +1,167 @@
+body {
+    /* Este será el ancho de la resolución con la que trabajaremos */
+    width: 1280px;
+  }
+  
+  nav {
+    width: 1240px;
+    margin: 20px;
+    /* 
+      Aqui como el contenedor tiene un width de 1280px
+      el de este elemento sera de 1240, ya que su margin es de 20px
+      1240px + 20px + 20px => 1280px
+    */
+    background-color: burlywood;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+  }
+  
+  a {
+    display: inline-block;
+    /* 
+      En el boceto especifique que cada a debia de medir 270 en total.
+      Como tambien especifique el padding de 10px, la medida de la caja sera de 250px
+    */
+    width: 250px;
+    padding: 0 10px;
+    height: 40px;
+  }
+  
+  main {
+      background-color: bisque;
+      /* 
+      Al igual que con el nav, al estar contenido el main en el body,
+      el main debera de tener una anchura de 1240px que, 
+      junto a los 20px por lado de los margenes, crearan una caja de 1280px
+       */
+      width: 1240px;
+      margin: 0px 20px;
+  }
+  
+  .div-informacion {
+    overflow: hidden;
+    /* 
+    Este div se encuentra dentro del main, el cual tiene una anchura de 1240px.
+    La anchura de la caja es de 1220px, que junto a los margenes hacen un total de
+    1240px (caja contenedora)
+      */
+    width: 1220px;
+    margin: 10px;
+  }
+  
+  .div-imagen {
+    /* Establecemos una anchura de la imagen de 150px */
+    width: 150px;
+    height: 150px;
+    /* Asi como unos margenes de 5 pixeles */
+    margin: 5px;
+    float: left;
+    background-color: brown;
+      
+  }
+  
+  .div-contenido {
+    /* Establecemos una anchura de 1050px */
+    width: 1050px;
+    height: 150px;
+    /* 
+      Y unos margenes de 5 pixeles.
+      El tamaño de esta caja (1050+5+5), junto al tamño de la imagen (150+5+5),
+      suma un total de 1220px (tamaño de la caja contenedora)
+    */
+    margin: 5px;
+    float: right;
+    background-color: aqua;
+  }
+  
+  table {
+      border-collapse: collapse;
+      /* Establecemos una anchura de 800pixeles para la tabla */
+      width: 800px;
+      margin: 10px auto;
+      background-color: aquamarine;
+  }
+  
+  tr {
+      height: 50px;
+  }
+  
+  form {
+    background-color: #e0f2e9; 
+    padding: 20px;
+    border-radius: 10px;
+    /* 
+    Establecemos un ancho del formulario de 800 pixeles y
+    junto a los 20px del padding, hace un width total de 840px.
+    */
+    width: 800px;
+    height: 700px;
+    margin: 0 auto;
+  }
+    
+  /* Estilo para las etiquetas de los campos de entrada */
+  label {
+      color: #2e7d32; 
+      font-weight: bold;
+      display: inline-block;
+      /* Establecemos un ancho del label de 120px, que junto a los margenes hara un total de 130 (120+5+5) */
+      width: 120px;
+      height: 20px;
+      margin: 5px;
+  }
+    
+  /* Estilo para los campos de entrada de texto */
+  input[type="text"], fieldset{
+    /* 
+    El ancho, tanto del input como del fieldset será de 750px.
+    Junto a los paddings, los márgenes y el borde obtendremos una caja de
+    ancho total de 750+10+10+5+5+1+1 -> 782px
+    */
+    width: 750px;
+    height: 20px;
+    border: 1px solid #2e7d32; 
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  
+  fieldset {
+      height: 50px;
+  }
+    
+  /* Estilo para los botones de radio y casillas de verificación */
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  /* Estilo para los botones de envío */
+  input[type="submit"] {
+    background-color: #346336; 
+    width: 100px;
+    height: 40px;
+    color: #fff; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+      /* El tamaño total de la caja será de
+      100px de ancho. Debido a que por defecto tiene la propiedad de border box
+      el width será de 60px mas los 20 por lado del padding
+      haran un total de 100px */
+    cursor: pointer;
+    font-weight: bold;
+  }
+    
+  /* Estilo para los legend */
+  legend {
+    color: #2e7d32; 
+    font-weight: bold;
+    margin-top: 10px;
+  }

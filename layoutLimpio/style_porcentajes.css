@@ -4,13 +4,8 @@ body {
 }
 
 nav {
-  width: 1240px;
-  margin: 20px;
-  /* 
-    Aqui como el contenedor tiene un width de 1280px
-    el de este elemento sera de 1240, ya que su margin es de 20px
-    1240px + 20px + 20px => 1280px
-  */
+  width: 96.88%;
+  margin: 1.56%;
   background-color: burlywood;
 }
 
@@ -21,6 +16,7 @@ ul {
 
 li {
   display: inline-block;
+  width: 20%;
 }
 
 a {
@@ -29,7 +25,7 @@ a {
     En el boceto especifique que cada a debia de medir 270 en total.
     Como tambien especifique el padding de 10px, la medida de la caja sera de 250px
   */
-  width: 250px;
+  width: 100%;
   padding: 0 10px;
   height: 40px;
 }
@@ -41,8 +37,8 @@ main {
     el main debera de tener una anchura de 1240px que, 
     junto a los 20px por lado de los margenes, crearan una caja de 1280px
      */
-    width: 1240px;
-    margin: 0px 20px;
+    width: 96.88%;
+    margin: 0px 1.56%;
 }
 
 .div-informacion {
@@ -52,16 +48,16 @@ main {
   La anchura de la caja es de 1220px, que junto a los margenes hacen un total de
   1240px (caja contenedora)
     */
-  width: 1220px;
-  margin: 10px;
+  width: 98.39%;
+  margin: 0.81%;
 }
 
 .div-imagen {
   /* Establecemos una anchura de la imagen de 150px */
-  width: 150px;
+  width: 12.1%;
   height: 150px;
   /* Asi como unos margenes de 5 pixeles */
-  margin: 5px;
+  margin: 0.40%;
   float: left;
   background-color: brown;
     
@@ -69,23 +65,23 @@ main {
 
 .div-contenido {
   /* Establecemos una anchura de 1050px */
-  width: 1050px;
+  width: 84.68%;
   height: 150px;
   /* 
     Y unos margenes de 5 pixeles.
     El tamaño de esta caja (1050+5+5), junto al tamño de la imagen (150+5+5),
     suma un total de 1220px (tamaño de la caja contenedora)
   */
-  margin: 5px;
+  margin: 0.40%;
   float: right;
   background-color: aqua;
 }
 
 table {
     border-collapse: collapse;
-    /* Establecemos una anchura de 800pixeles para la tabla */
-    width: 800px;
-    margin: 10px auto;
+    /* Establecemos una anchura de 800px para la tabla */
+    width: 62.50%;
+    margin: 0.78% auto;
     background-color: aquamarine;
 }
 
@@ -95,13 +91,13 @@ tr {
 
 form {
   background-color: #e0f2e9; 
-  padding: 20px;
+  padding: 1.56%;
   border-radius: 10px;
   /* 
   Establecemos un ancho del formulario de 800 pixeles y
   junto a los 20px del padding, hace un width total de 840px.
   */
-  width: 800px;
+  width: 62.50%;
   height: 700px;
   margin: 0 auto;
 }
@@ -112,9 +108,9 @@ label {
     font-weight: bold;
     display: inline-block;
     /* Establecemos un ancho del label de 120px, que junto a los margenes hara un total de 130 (120+5+5) */
-    width: 120px;
+    width: 15%;
     height: 20px;
-    margin: 5px;
+    margin: 0.63%;
 }
   
 /* Estilo para los campos de entrada de texto */
@@ -124,11 +120,11 @@ input[type="text"], fieldset{
   Junto a los paddings, los márgenes y el borde obtendremos una caja de
   ancho total de 750+10+10+5+5+1+1 -> 782px
   */
-  width: 750px;
-  height: 20px;
+  width: 93.75%;
+  height: 2.50%;
   border: 1px solid #2e7d32; 
-  padding: 10px;
-  margin: 5px;
+  padding: 1.25%;
+  margin: 0.63%;
   border-radius: 5px;
 }
 
@@ -145,11 +141,11 @@ input[type="checkbox"] {
 /* Estilo para los botones de envío */
 input[type="submit"] {
   background-color: #346336; 
-  width: 100px;
+  width: 12.50%;
   height: 40px;
   color: #fff; 
   border: none;
-  padding: 10px 20px;
+  padding: 1.25% 2.50%;
   border-radius: 5px;
     /* El tamaño total de la caja será de
     100px de ancho. Debido a que por defecto tiene la propiedad de border box
