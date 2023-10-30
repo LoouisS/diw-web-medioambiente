@@ -59,7 +59,7 @@ a:hover {
 /* Estilos para las imágenes dentro de las tarjetas */
 .card-news img {
     float: left; 
-    width: 15s0px; 
+    width: 150px; 
     height: 150px; 
     margin-right: 20px; 
 }
@@ -69,7 +69,6 @@ a:hover {
     padding: 10px; 
     width: 1280px;
     height: 140px;
-
 }
 
 /* Estilos para tablas y sus encabezados y filas */
