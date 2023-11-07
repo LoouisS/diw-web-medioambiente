@@ -110,38 +110,57 @@
             </select>
             <fieldset>
                 <legend>Género:</legend>
-                <input type="radio" id="masculino" name="genre" value="masculino">
-                <label for="masculino">Masculino</label>
-                <input type="radio" id="femenino" name="genre" value="femenino">
-                <label for="femenino">Femenino</label>
-                <input type="radio" id="otro" name="genre" value="otro">
-                <label for="otro">Otro</label>
-            </fieldset>
+                <div class="checkbox-group">
+                    <input type="radio" id="masculino" name="genre" value="masculino">
+                    <label for="masculino">Masculino</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="radio" id="femenino" name="genre" value="femenino">
+                    <label for="femenino">Femenino</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="radio" id="otro" name="genre" value="otro">
+                    <label for="otro">Otro</label>
+                </div>
+            </fieldset>            
             <fieldset>
-            <!-- Creamos el conjunto de checkbox-->
                 <legend>Que productos sueles comprar por internet</legend>
-                <!--Especificamos en el atributo name el nombre del array en el que se van a almacenar los valores-->
-                <input type="checkbox" id="electronica" name="compras-online[]" value="electronica">
-                <label for="electronica">Electronica</label>
-                <input type="checkbox" id="ropa" name="compras-online[]" value="ropa">
-                <label for="ropa">Ropa</label>
-                <input type="checkbox" id="comida" name="compras-online[]" value="comida">
-                <label for="comida">Comida</label>
-                <input type="checkbox" id="otros" name="compras-online[]" value="otros">
-                <label for="otros">Otros</label>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="electronica" name="compras-online[]" value="electronica">
+                    <label for="electronica">Electronica</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="ropa" name="compras-online[]" value="ropa">
+                    <label for="ropa">Ropa</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="comida" name="compras-online[]" value="comida">
+                    <label for="comida">Comida</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="otros" name="compras-online[]" value="otros">
+                    <label for="otros">Otros</label>
+                </div>
             </fieldset>
             <fieldset>
-            <!-- Creamos el conjunto de checkbox-->
+                <!-- Creamos el conjunto de checkbox-->
                 <legend>Temas de interés:</legend>
-                <!--Especificamos en el atributo name el nombre del array en el que se van a almacenar los valores-->
-                <input type="checkbox" id="reciclaje" name="temas[]" value="reciclaje">
-                <label for="reciclaje">Reciclaje</label>
-                <input type="checkbox" id="medioambiente" name="temas[]" value="medioambiente">
-                <label for="medio-ambiente">Medioambiente</label>
-                <input type="checkbox" id="voluntariado" name="temas[]" value="voluntariado">
-                <label for="voluntariado">Voluntariado</label>
-                <input type="checkbox" id="variado" name="temas[]" value="variado">
-                <label for="variado">Variado</label>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="reciclaje" name="temas[]" value="reciclaje">
+                    <label for="reciclaje">Reciclaje</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="medioambiente" name="temas[]" value="medioambiente">
+                    <label for="medioambiente">Medioambiente</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="voluntariado" name="temas[]" value="voluntariado">
+                    <label for="voluntariado">Voluntariado</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="variado" name="temas[]" value="variado">
+                    <label for="variado">Variado</label>
+                </div>
             </fieldset>
             <input type="checkbox" name="newsletter" id="newsletter">
             <label for="newsletter" class="checkbox-formulario">Deseo recibir noticias relacionadas con los intereses seleccionados</label><br>
